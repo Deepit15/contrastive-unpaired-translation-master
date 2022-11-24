@@ -2,8 +2,8 @@
                batch_size: 1                             
           checkpoints_dir: ./checkpoints                 
                 crop_size: 256                           
-                 dataroot: .\datasets                    	[default: placeholder]
-             dataset_mode: unaligned                     
+                 dataroot: datasets                      	[default: placeholder]
+             dataset_mode: single                        	[default: unaligned]
                 direction: AtoB                          
           display_winsize: 256                           
                easy_label: experiment_name               
